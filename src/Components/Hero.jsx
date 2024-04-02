@@ -13,7 +13,7 @@ const Hero = () => {
                             <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg3.svg" alt="logo" />
                         </div> 
                         <div className="flex items-center">
-                            <ul id="list" className={`${menu ? '' : 'hidden'} p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16`}>
+                            <ul id="list" className={`${menu ? "" : "hidden"} p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16`}>
                                 <li className="flex cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
                                     <a href="javascript:void(0)">
                                         <span className="ml-2 font-bold">Products</span>
@@ -36,8 +36,8 @@ const Hero = () => {
                                 </li>
                             </ul>
                             <div className="xl:hidden">
-                               <img id="open" className={` ${menu ? 'hidden' : '' } close-m-menu`} onClick={() => setMenu(!menu)}  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg1.svg" alt="menu" />
-                                <div id="close" className={` ${menu ? '' : 'hidden' } close-m-menu`} onClick={() => setMenu(!menu)}>
+                               <img id="open" className={` ${menu ? "hidden" : "" } close-m-menu`} onClick={() => setMenu(!menu)}  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg1.svg" alt="menu" />
+                                <div id="close" className={` ${menu ? "" : "hidden" } close-m-menu`} onClick={() => setMenu(!menu)}>
                                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/right_aligned_with_searchbar_Svg2.svg" alt="cross" />
                                 </div>
                             </div>
