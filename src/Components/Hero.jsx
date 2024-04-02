@@ -79,7 +79,7 @@ const Hero = () => {
                     <div  role="contentinfo"  className="w-full lg:w-1/2 h-full">
                         <p tabIndex="0" className="text-indigo-700 uppercase text-2xl mb-4">Qusique Tincidun sapien</p>
                         <h1 tabIndex="0" className="text-indigo-700 text-4xl lg:text-6xl font-black mb-8">All natural ingredients</h1>
-                        <p tabIndex="0" className="text-gray-800 font-regular mb-8">COMBINING SCIENCE WITH BEAUTY. L'Oreal Paris offerincare products is developed and rigorously tested with leading scientists. Indulge yourself in a luxurious and sensorial skincare experience. Cutting-edge innovations, proven by Science.</p>
+                        <p tabIndex="0" className="text-gray-800 font-regular mb-8">COMBINING SCIENCE WITH BEAUTY. LOreal Paris offerincare products is developed and rigorously tested with leading scientists. Indulge yourself in a luxurious and sensorial skincare experience. Cutting-edge innovations, proven by Science.</p>
                         <div className="bg-white lg:mt-16 py-4 px-4 flex flex-col sm:flex-row justify-start sm:justify-between items-start sm:items-center shadow-lg rounded-lg">
                             <div className="sm:flex items-center py-2">
                                 <div className="flex items-center">
